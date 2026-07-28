@@ -1,12 +1,7 @@
 # FRACTALS_DRAWING
 # 🌀 Fractal Curve Explorer
-https://github.com/luishvn440-hub/FRACTALS_DRAWING/blob/main/fractals-index.html
-https://github.com/luishvn440-hub/FRACTALS_DRAWING/blob/main/fractals-script.js
-https://github.com/luishvn440-hub/FRACTALS_DRAWING/blob/main/fractals-style.css
 
-
-An interactive web application 
-to visualize and download **10 classic fractal curves** rendered in pure SVG — no external libraries, no dependencies, just HTML, CSS, and JavaScript.
+An interactive web application to visualize and download **10 classic fractal curves** rendered in pure SVG — no external libraries, no dependencies, just HTML, CSS, and JavaScript.
 
 ---
 
@@ -63,9 +58,9 @@ to visualize and download **10 classic fractal curves** rendered in pure SVG —
 
 ```
 fractal-curves/
-├── index.html        ← Page structure and controls
-├── style.css         ← Layout and visual styling
-└── script.js         ← All fractal algorithms and SVG rendering
+├── fractals-index.html        ← Page structure and controls
+├── fractals-script.js         ← Layout and visual styling
+└── fractals-style.css         ← All fractal algorithms and SVG rendering
 ```
 
 ---
@@ -76,11 +71,11 @@ No installation needed. Just clone and open:
 
 ```bash
 git clone https://github.com/luishvn440-hub/FRACTALS_DRAWING.git
-cd fractal-curves
-open index.html
+cd FRACTALS_DRAWING
+open fractals-index.html
 ```
 
-Or simply double-click `index.html` in your file explorer.
+Or simply double-click `fractals-index.html` in your file explorer.
 
 ---
 
