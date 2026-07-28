@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fractal Curve Explorer</title>
+  <link rel="stylesheet" href="fractals-style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <span class="eyebrow">Curve Explorer</span>
+      <h1>Fractal Curves</h1>
+      <p class="subtitle">Self-similar geometry rendered in SVG</p>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Controls row -->
+    <div class="controls">
+
+      <div class="field field--wide">
+        <label for="fractal">Fractal</label>
+        <div class="sel-wrap">
+          <select id="fractal">
+            <optgroup label="Koch family">
+              <option value="koch-snowflake">Koch snowflake</option>
+              <option value="anti-snowflake">Anti-snowflake</option>
+              <option value="koch-curve">Koch curve</option>
+            </optgroup>
+            <optgroup label="Space-fillers">
+              <option value="dragon">Dragon curve</option>
+              <option value="gosper">Gosper / flowsnake</option>
+              <option value="hilbert">Hilbert curve</option>
+              <option value="peano">Peano curve</option>
+            </optgroup>
+            <optgroup label="Sierpiński">
+              <option value="sierpinski">Sierpiński triangle</option>
+              <option value="sierpinski-arrowhead">Sierpiński arrowhead</option>
+            </optgroup>
+            <optgroup label="Other">
+              <option value="levy">Lévy C curve</option>
+            </optgroup>
+          </select>
+          <span class="ch">▾</span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="depth">Iterations <span class="fv" id="dv">4</span></label>
+        <input type="range" id="depth" min="1" max="6" step="1" value="4" />
+      </div>
+
+      <div class="field">
+        <label for="scheme">Color</label>
+        <div class="sel-wrap">
+          <select id="scheme">
+            <option value="purple">Purple</option>
+            <option value="teal">Teal</option>
+            <option value="coral">Coral</option>
+            <option value="blue">Blue</option>
+            <option value="amber">Amber</option>
+          </select>
+          <span class="ch">▾</span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="sw">Stroke <span class="fv" id="swv">1</span></label>
+        <input type="range" id="sw" min="1" max="6" step="1" value="1" />
+      </div>
+
+      <div class="field">
+        <label for="rainbow">Rainbow</label>
+        <div class="sel-wrap">
+          <select id="rainbow">
+            <option value="off">Off</option>
+            <option value="on">On</option>
+          </select>
+          <span class="ch">▾</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SVG Canvas -->
+    <div class="canvas-box">
+      <div id="wrap"></div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-left">
+        <span class="fname" id="iname">Koch snowflake</span>
+        <span class="seg" id="sc"></span>
+      </div>
+      <div class="footer-right">
+        <span class="fdesc" id="idesc"></span>
+        <button onclick="downloadSVG()">↓ Download SVG</button>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="fractals-script.js"></script>
+</body>
+</html>
