@@ -1,9 +1,9 @@
 # FRACTALS_DRAWING
 # 🌀 Fractal Curve Explorer
-[fractals-script.js](https://github.com/user-attachments/files/30481899/fractals-script.js)
-[fractals-style.css](https://github.com/user-attachments/files/30481900/fractals-style.css)<img width="210" height="150" alt="sierpinski-fractal" src="https://github.com/user-attachments/assets/02c17322-e626-4d6a-94c8-41ea8379ecf3" />
-
-An interactive web application to visualize and download **10 classic fractal curves** rendered in pure SVG — no external libraries, no dependencies, just HTML, CSS, and JavaScript.
+[fractals-index.html](https://github.com/user-attachments/files/30481980/fractals-index.html)
+[fractals-script.js](https://github.com/user-attachments/files/30481982/fractals-script.js)[fractals-style.css](https://github.com/user-attachments/files/30481983/fractals-style.css)
+An interactive web application 
+to visualize and download **10 classic fractal curves** rendered in pure SVG — no external libraries, no dependencies, just HTML, CSS, and JavaScript.
 
 ---
 
