@@ -1,8 +1,8 @@
 # FRACTALS_DRAWING
 # 🌀 Fractal Curve Explorer
-[fractals-index.html](https://github.com/user-attachments/files/30481980/fractals-index.html)
-[fractals-script.js](https://github.com/user-attachments/files/30481982/fractals-script.js)
-[fractals-style.css](https://github.com/user-attachments/files/30481983/fractals-style.css)
+https://github.com/luishvn440-hub/FRACTALS_DRAWING/blob/main/fractals-index.html
+https://github.com/luishvn440-hub/FRACTALS_DRAWING/blob/main/fractals-script.js
+https://github.com/luishvn440-hub/FRACTALS_DRAWING/blob/main/fractals-style.css
 
 
 An interactive web application 
