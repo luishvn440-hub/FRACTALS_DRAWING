@@ -75,7 +75,7 @@ fractal-curves/
 No installation needed. Just clone and open:
 
 ```bash
-git clone https://github.com/your-username/fractal-curves.git
+git clone https://github.com/luishvn440-hub/FRACTALS_DRAWING.git
 cd fractal-curves
 open index.html
 ```
