@@ -7,7 +7,7 @@ An interactive web application to visualize and download **10 classic fractal cu
 
 ## ✨ Live Demo
 
-👉 [Open the Fractal Explorer](https://luishvn440-hub.github.io/FRACTALS_DRAWING/)
+👉 [Open the Fractal Explorer](https://luishvn440-hub.github.io/FRACTALS_DRAWING/fractals-index.html)
 
 ---
 
